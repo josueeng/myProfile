@@ -285,7 +285,7 @@ export default function Index() {
               className="text-sm sm:text-base md:text-lg px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 border-border text-foreground hover:bg-muted bg-glass-light hover-lift transition-all duration-300 w-full sm:w-auto"
             >
               <Github className="mr-2 md:mr-3 h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6" />
-              Ver Projetos
+              <a href="https://github.com/josueeng">Ver Projetos</a>
             </Button>
           </motion.div>
 
@@ -669,10 +669,12 @@ export default function Index() {
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
                 <Phone className="mr-2 sm:mr-3 md:mr-4 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8 animate-pulse flex-shrink-0" />
                 <span className="relative z-10 text-center">
-                  <span className="block sm:hidden">              <a href="https://api.whatsapp.com/send/?phone=5587999196460&text=Estou+pronto+para+transformar+a+minha+empresa&type=phone_number&app_absent=0">WhatsApp</a>
+                  <span className="block sm:hidden">              <a href="https://api.whatsapp.com/send/?phone=5587999196460&text=Estou+pronto+para+transformar+a+minha+empresa&type=phone_number&app_absent=0">Me aciona no WhatsApp! 🚀</a>
                   </span>
                   <span className="hidden sm:block md:hidden">
-                    Me chama no WhatsApp!
+                    
+                    <a href="https://api.whatsapp.com/send/?phone=5587999196460&text=Estou+pronto+para+transformar+a+minha+empresa&type=phone_number&app_absent=0">Me aciona no WhatsApp! 🚀</a>
+
                   </span>
                   <span className="hidden md:block">
                     Me aciona no WhatsApp! 🚀
